@@ -73,8 +73,10 @@ hoping to start on a better version using react.
 <br>
 
 > [!NOTE]
-> Nothing more yet! But check back soon, because I'm sure this section is going
-to be filled to the brim with new and interesting projects!
+> Nothing more yet!
+> <br> 
+> But check back soon, because I'm sure this section is going
+> to be filled to the brim with new and interesting projects!
 <br>
 <br>
 
@@ -142,26 +144,12 @@ Optionally embed it in the page.
 
 ## __7. Contact Me__
 
-<table border="0">
- <tr>
-    <td><b style="font-size:30px">Email</b></td>
-    <td><b style="font-size:30px">Socials</b></td>
- </tr>
- <tr>
-    <td><img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)</td>
-    <td><img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
-    <br>
-      <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
-    </td>
- </tr>
-</table>
-<br>
-
-### Email
+### Email                                               Socials
 You can reach me by email at
 <br>
 
 <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
+                                               <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
 <br>
 <br>
 
