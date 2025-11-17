@@ -62,6 +62,15 @@ Optionally embed it in the page.
 
 ## 7. Contact
 
+If you would like to reach me you can do so at
+
+[JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
+
+Alternatively, if you would like to check out my socials you can do so at
+
+[LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
+
+[Github/JadonBennett](https://github.com/JadonBennett)
 <!--
 Provide your professional email.
 Optionally include links to:
