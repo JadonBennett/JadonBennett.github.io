@@ -53,8 +53,9 @@ Optionally include hobbies or extracurriculars related to computing.
 -->
 
 ## __3. Projects: This is Work in Progress (WIP)__
+<br>
 
-__Character Point Calculator__
+###__Character Point Calculator__
 Technologies Used: Google Sheets Functions, Javascript
 Link to Demo: [Character Calculator](https://docs.google.com/spreadsheets/d/18Tm3Zhe4TV6hPFkm8RXLj_h7rba7ILOd49WaTWQrveA/edit?usp=sharing)
 Challenges and Key Learnings:
@@ -113,8 +114,12 @@ Include your role, responsibilities, and outcomes.
 -->
 
 ## __6. Resume__
+<br>
 
+### Link to my Resume
 ![Link to my Resume](/Images/GeneralResumeJadon.jpg)
+<br>
+
 <!--
 Include a link to your PDF resume hosted in your repository (e.g., /resume.pdf).
 Optionally embed it in the page.
