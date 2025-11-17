@@ -9,6 +9,7 @@ majoring in Computer Science and Systems! <br>
 <br>
 ### Personal Statement
 _Rooted in integrity, driven by continuous growth._
+<br>
 
 <!--
 A brief professional introduction (name, background, area of interest in CS).
@@ -44,6 +45,8 @@ to add interaction beyond just written rules.
 <br>
 A while back I created a character builder in google sheets and I plan on using that as a basis for
 creating a more professional version of it using Javascript and React.
+<br>
+
 <!--
 A more detailed bio: education, career goals, and what motivates your interest in computing or technology.
 Optionally include hobbies or extracurriculars related to computing.
@@ -51,8 +54,15 @@ Optionally include hobbies or extracurriculars related to computing.
 
 ## __3. Projects: This is Work in Progress (WIP)__
 
-Currently nothing! But check back soon, because I'm sure this section is going
+__Character Point Calculator__
+Technologies Used: Google Sheets Functions, Javascript
+Link to Demo: [Character Calculator](https://docs.google.com/spreadsheets/d/18Tm3Zhe4TV6hPFkm8RXLj_h7rba7ILOd49WaTWQrveA/edit?usp=sharing)
+Challenges and Key Learnings:
+<br>
+
+Nothing more yet! But check back soon, because I'm sure this section is going
 to be filled to the brim with new and interesting projects!
+<br>
 
 <!--
 Showcase three significant projects. For each project:
@@ -67,9 +77,12 @@ Note: You will be updating this section every quarter, so don’t worry if you d
 
 ## __4. Skills__
 
-  Hard Skills: Java, C++, Assembly, Microsoft Office, Google Workspace, Github.
+### Hard Skills
+Java, C++, Assembly, Microsoft Office, Google Workspace, Git.
+<br>
 
-  Soft Skills: Leadership, Problem Solving, Communication, Organization, Attention to Detail.
+### Soft Skills
+Leadership, Problem Solving, Communication, Organization, Attention to Detail.
 
 <!--
 List relevant technical skills (e.g., Python, Java, HTML/CSS, React, SQL, etc.)
