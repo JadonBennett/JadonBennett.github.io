@@ -142,8 +142,7 @@ You can reach me by email at
 
 <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
 <br>
-<br>
-###Socials
+### Socials
 Alternatively, if you would like to check out my socials you can do so at
 <br>
 <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
