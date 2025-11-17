@@ -69,7 +69,7 @@ Optionally embed it in the page.
 
 If you would like to reach me you can do so at
 
-<img src="/Images/Email.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
+<img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
 <br>
 <br>
 Alternatively, if you would like to check out my socials you can do so at
