@@ -93,7 +93,7 @@ Add certifications, relevant coursework, or badges.
 -->
 
 ## __5. Experience__
-<br>
+
 ### Audio Media Inc.
 I currently work as a sound technician for an events company. Though this role I've
 been able to work with sound equipment and have at times been required to interface
