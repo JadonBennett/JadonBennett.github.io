@@ -1,4 +1,10 @@
 JadonBennett.github.io
+
+---
+layout: post
+title: Welcome to My Portfolio
+---
+
 # Welcome to My Portfolio
 
 ## 1. Home / Introduction
