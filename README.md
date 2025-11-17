@@ -1,8 +1,10 @@
 JadonBennett.github.io
 
+![Professional Headshot](/Images/Headshot.png)
+
 ## __1. Home / Introduction__
 ### Introduction
-Hello! My name is Jadon Bennett. I'm a Student at the University of Washington, Tacoma
+Hello! My name is Jadon Bennett. I'm a Student  currently enrolled at the University of Washington, Tacoma
 majoring in Computer Science and Systems! <br>
 <br>
 ### Personal Statement
@@ -13,10 +15,35 @@ A brief professional introduction (name, background, area of interest in CS).
 A clear tagline or personal statement.
 -->
 
-![Professional Headshot](/Images/Headshot.png)
-
 ## __2. About Me__
 
+### Education
+I'm currently in my junior year at the University of Washington, Tacoma. I'm working toward
+my B.A. in Computer Science and Systems.
+<br>
+
+### Career Goals
+I would like to be on a team that tackles complex and interesting problems. Challenge is what
+makes life interesting. 
+<br>
+
+### What Motivates Me
+I've had an interest in computers since I was 14 years old and received my first laptop as a
+christmas gift. Since then its only grown. Every opportunity I've had to learn more about how
+to use not just personal computers, but all technology, is very exciting for me. I currently
+work in the sound industry, and I love going to work because I get to learn more about what I'm
+working with and often find interesting solutions to complicated problems. I just want to learn
+as much as I can.
+<br>
+
+### Hobbies and Interests
+One of my more fun hobbies is building interactive systems for an online roleplaying game. This is
+interesting to me because I'm essentially building rules for how players get to interact with the
+world. Beyond the logic of building the systems I've started to code implementation for these systems
+to add interaction beyond just written rules.
+<br>
+A while back I created a character builder in google sheets and I plan on using that as a basis for
+creating a more professional version of it using Javascript and React.
 <!--
 A more detailed bio: education, career goals, and what motivates your interest in computing or technology.
 Optionally include hobbies or extracurriculars related to computing.
