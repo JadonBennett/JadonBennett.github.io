@@ -124,9 +124,8 @@ Include your role, responsibilities, and outcomes.
 -->
 
 ## __6. Resume__
-<br>
 
-### Link to my Resume
+### My Resume
 ![Link to my Resume](/Images/GeneralResumeJadon.jpg)
 <br>
 
