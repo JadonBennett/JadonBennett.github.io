@@ -54,6 +54,7 @@ Include your role, responsibilities, and outcomes.
 
 ## 6. Resume
 
+![Professional Headshot](/Images/GeneralResumeJadon.pdf)
 <!--
 Include a link to your PDF resume hosted in your repository (e.g., /resume.pdf).
 Optionally embed it in the page.
