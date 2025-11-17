@@ -142,10 +142,19 @@ Optionally embed it in the page.
 
 ## __7. Contact Me__
 
-| ### Email | ### Socials |
-| ------------- | ------------- |
-| <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com) | <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/) |
-|  | <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett) |
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Email</b></td>
+    <td><b style="font-size:30px">Socials</b></td>
+ </tr>
+ <tr>
+    <td><img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)</td>
+    <td><img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
+    <br>
+      <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
+    </td>
+ </tr>
+</table>
 <br>
 
 ### Email
