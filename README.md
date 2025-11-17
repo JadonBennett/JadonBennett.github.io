@@ -10,6 +10,7 @@ majoring in Computer Science and Systems! <br>
 ### Personal Statement
 _Rooted in integrity, driven by continuous growth._
 <br>
+<br>
 
 <!--
 A brief professional introduction (name, background, area of interest in CS).
@@ -46,6 +47,7 @@ to add interaction beyond just written rules.
 A while back I created a character builder in google sheets and I plan on using that as a basis for
 creating a more professional version of it using Javascript and React.
 <br>
+<br>
 
 <!--
 A more detailed bio: education, career goals, and what motivates your interest in computing or technology.
@@ -55,13 +57,13 @@ Optionally include hobbies or extracurriculars related to computing.
 ## __3. Projects: This is Work in Progress (WIP)__
 
 ### __Character Point Calculator__
-Technologies Used: Google Sheets Functions, Google Apps Script
+__Technologies Used:__ Google Sheets Functions, Google Apps Script
 <br>
 
-Link to Demo: [Character Calculator](https://docs.google.com/spreadsheets/d/18Tm3Zhe4TV6hPFkm8RXLj_h7rba7ILOd49WaTWQrveA/edit?usp=sharing)
+__Link to Demo:__ [Character Calculator](https://docs.google.com/spreadsheets/d/18Tm3Zhe4TV6hPFkm8RXLj_h7rba7ILOd49WaTWQrveA/edit?usp=sharing)
 <br>
 
-Challenges and Key Learnings:
+__Challenges and Key Learnings:__
 <br>
 I did this project over my 2024 winter break. It was a lot of fun because I had a decent amount
 of time to just sit down and learn google sheet functions and when those failed I was able to teach
@@ -70,8 +72,10 @@ individual piece of the system. I'm still maintaining this project as the system
 hoping to start on a better version using react. 
 <br>
 
-Nothing more yet! But check back soon, because I'm sure this section is going
+> [!NOTE]
+> Nothing more yet! But check back soon, because I'm sure this section is going
 to be filled to the brim with new and interesting projects!
+<br>
 <br>
 
 <!--
@@ -93,6 +97,7 @@ Java, C++, Assembly, Microsoft Office, Google Workspace, Git.
 
 ### Soft Skills
 Leadership, Problem Solving, Communication, Organization, Attention to Detail.
+<br>
 <br>
 
 <!--
@@ -116,6 +121,7 @@ team won first place. My role was reading the questions and using psuedo code to
 develop a system for implementing the desired outcome. I communicated with my team
 to ensure that we could collaborate on a solution that we all agreed on.
 <br>
+<br>
 
 <!--
 Summarize internships, volunteer roles, hackathons, or research experience.
@@ -126,6 +132,7 @@ Include your role, responsibilities, and outcomes.
 
 ### My Resume
 ![Link to my Resume](/Images/GeneralResumeJadon.jpg)
+<br>
 <br>
 
 <!--
