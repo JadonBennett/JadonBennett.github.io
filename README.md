@@ -73,11 +73,9 @@ hoping to start on a better version using react.
 <br>
 
 > [!NOTE]
-> Nothing more yet!
-> <br> 
+> Nothing more yet! <br> 
 > But check back soon, because I'm sure this section is going
-> to be filled to the brim with new and interesting projects!
-<br>
+> to be filled to the brim with new and interesting projects! <br>
 <br>
 
 <!--
@@ -144,12 +142,26 @@ Optionally embed it in the page.
 
 ## __7. Contact Me__
 
-### Email                                               Socials
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Email</b></td>
+    <td><b style="font-size:30px">Social Media</b></td>
+ </tr>
+ <tr>
+    <td> <img src="/Images/Gmail.png" width="14"> <a href="Mailto:JadonKBennett@gmail.com">JadonKBennett@gmail.com</a></td>
+    <td> <img src="/Images/LinkedIn.png" width="14"> <a href="https://www.linkedin.com/in/jadonkbennett/">LinkedIn/JadonKBennett</a> <br>
+    <img src="/Images/Github.png" width="14"> <a href="https://github.com/JadonBennett">Github/JadonBennett</a> </td>
+ </tr>
+</table>
+<br>
+<br>
+
+### Email
 You can reach me by email at
 <br>
 
 <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
-                                               <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
+<img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
 <br>
 <br>
 
