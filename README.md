@@ -135,6 +135,10 @@ Optionally embed it in the page.
 -->
 
 ## __7. Contact Me__
+| ### Email | ### Socials |
+| <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com) | <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/) |
+|  | <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett) |
+<br>
 
 ### Email
 You can reach me by email at
@@ -142,11 +146,17 @@ You can reach me by email at
 
 <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
 <br>
+<br>
+
 ### Socials
 Alternatively, if you would like to check out my socials you can do so at
 <br>
+<br>
+
 <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
 <br>
+<br>
+
 <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
 <br>
 
