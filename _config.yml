@@ -1,4 +1,8 @@
-remote_theme: y7kim/agency-jekyll-theme
+remote_theme: raviriley/agency-jekyll-theme
+
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
 plugins:
 - jekyll-remote-theme
 title: Welcome to My Portfolio!
