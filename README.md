@@ -83,6 +83,7 @@ Java, C++, Assembly, Microsoft Office, Google Workspace, Git.
 
 ### Soft Skills
 Leadership, Problem Solving, Communication, Organization, Attention to Detail.
+<br>
 
 <!--
 List relevant technical skills (e.g., Python, Java, HTML/CSS, React, SQL, etc.)
@@ -91,6 +92,20 @@ Add certifications, relevant coursework, or badges.
 -->
 
 ## __5. Experience__
+<br>
+### Audio Media Inc.
+I currently work as a sound technician for an events company. Though this role I've
+been able to work with sound equipment and have at times been required to interface
+with the equipment on a software level to get the hardware to do what we need it to.
+<br>
+
+### Autumn 2024 TCSS 142 Hackathon
+During my initial intro to Java class my professor decided as a fun extra credit
+opportunity we would hold a hackathon for all the 142 classes at the school. My
+team won first place. My role was reading the questions and using psuedo code to
+develop a system for implementing the desired outcome. I communicated with my team
+to ensure that we could collaborate on a solution that we all agreed on.
+<br>
 
 <!--
 Summarize internships, volunteer roles, hackathons, or research experience.
@@ -107,16 +122,21 @@ Optionally embed it in the page.
 
 ## __7. Contact Me__
 
-If you would like to reach me you can do so at
+### Email
+You can reach me by email at
+<br>
 
 <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
 <br>
 <br>
+###Socials
 Alternatively, if you would like to check out my socials you can do so at
-
+<br>
 <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
-
+<br>
 <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
+<br>
+
 <!--
 Provide your professional email.
 Optionally include links to:
