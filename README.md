@@ -6,7 +6,7 @@
 A brief professional introduction (name, background, area of interest in CS).
 A clear tagline or personal statement.
 
-![Professional Headshot](/images/Headshot.jpg)
+![Professional Headshot](/Images/Headshot.jpg)
 
 2. About Me
 
