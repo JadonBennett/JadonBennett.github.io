@@ -53,7 +53,6 @@ Optionally include hobbies or extracurriculars related to computing.
 -->
 
 ## __3. Projects: This is Work in Progress (WIP)__
-<br>
 
 ### __Character Point Calculator__
 Technologies Used: Google Sheets Functions, Google Apps Script
