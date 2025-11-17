@@ -77,6 +77,7 @@ hoping to start on a better version using react.
 > But check back soon, because I'm sure this section is going
 > to be filled to the brim with new and interesting projects! <br>
 <br>
+<br>
 
 <!--
 Showcase three significant projects. For each project:
