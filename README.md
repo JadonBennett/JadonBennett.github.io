@@ -141,6 +141,7 @@ Optionally embed it in the page.
 -->
 
 ## __7. Contact Me__
+
 | ### Email | ### Socials |
 | ------------- | ------------- |
 | <img src="/Images/Gmail.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com) | <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/) |
