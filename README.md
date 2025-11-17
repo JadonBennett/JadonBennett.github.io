@@ -1,8 +1,3 @@
----
-layout: post
-title: Welcome to My Portfolio
----
-
 JadonBennett.github.io
 # Welcome to My Portfolio
 
