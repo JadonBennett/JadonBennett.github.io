@@ -1,7 +1,7 @@
 # JadonBennett.github.io
-# Welcome to My Portfolio
+## Welcome to My Portfolio
 
-1. Home / Introduction
+# 1. Home / Introduction
 
 Hello! My name is Jadon Bennett and I'm a Student at the University of Washington, Tacoma
 in the Conputer Science and Systems Major!
@@ -13,7 +13,7 @@ A clear tagline or personal statement.
 
 ![Professional Headshot](/Images/Headshot.jpg)
 
-2. About Me
+# 2. About Me
 
 <!--
 A more detailed bio: education, career goals, and what motivates your interest in computing or technology.
