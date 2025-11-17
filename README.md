@@ -55,10 +55,20 @@ Optionally include hobbies or extracurriculars related to computing.
 ## __3. Projects: This is Work in Progress (WIP)__
 <br>
 
-###__Character Point Calculator__
-Technologies Used: Google Sheets Functions, Javascript
+### __Character Point Calculator__
+Technologies Used: Google Sheets Functions, Google Apps Script
+<br>
+
 Link to Demo: [Character Calculator](https://docs.google.com/spreadsheets/d/18Tm3Zhe4TV6hPFkm8RXLj_h7rba7ILOd49WaTWQrveA/edit?usp=sharing)
+<br>
+
 Challenges and Key Learnings:
+<br>
+I did this project over my 2024 winter break. It was a lot of fun because I had a decent amount
+of time to just sit down and learn google sheet functions and when those failed I was able to teach
+myself how to write what I needed in Apps Script. It was more work than I expected to connect each
+individual piece of the system. I'm still maintaining this project as the system updates, but I'm
+hoping to start on a better version using react. 
 <br>
 
 Nothing more yet! But check back soon, because I'm sure this section is going
