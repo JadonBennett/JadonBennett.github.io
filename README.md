@@ -1,6 +1,6 @@
 JadonBennett.github.io
 
-## 1. Home / Introduction
+## __1. Home / Introduction__
 
 Hello! My name is Jadon Bennett. I'm a Student at the University of Washington, Tacoma
 majoring in Computer Science and Systems! <br>
@@ -14,14 +14,17 @@ A clear tagline or personal statement.
 
 ![Professional Headshot](/Images/Headshot.jpg)
 
-## 2. About Me
+## __2. About Me__
 
 <!--
 A more detailed bio: education, career goals, and what motivates your interest in computing or technology.
 Optionally include hobbies or extracurriculars related to computing.
 -->
 
-## 3. Projects: This is Work in Progress (WIP)
+## __3. Projects: This is Work in Progress (WIP)__
+
+Currently nothing! But check back soon, because I'm sure this section is going
+to be filled to the brim with new and interesting projects!
 
 <!--
 Showcase three significant projects. For each project:
@@ -34,7 +37,7 @@ Challenges and Key Learnings
 Note: You will be updating this section every quarter, so don’t worry if you don’t have any projects to report yet.
 -->
 
-## 4. Skills
+## __4. Skills__
 
   Hard Skills: Java, C++, Assembly, Microsoft Office, Google Workspace, Github.
 
@@ -46,14 +49,14 @@ Mention software tools or frameworks (e.g., Git, VS Code, TensorFlow).
 Add certifications, relevant coursework, or badges.
 -->
 
-## 5. Experience
+## __5. Experience__
 
 <!--
 Summarize internships, volunteer roles, hackathons, or research experience.
 Include your role, responsibilities, and outcomes.
 -->
 
-## 6. Resume
+## __6. Resume__
 
 ![Link to my Resume](/Images/GeneralResumeJadon.jpg)
 <!--
@@ -61,7 +64,7 @@ Include a link to your PDF resume hosted in your repository (e.g., /resume.pdf).
 Optionally embed it in the page.
 -->
 
-## 7. Contact
+## __7. Contact__
 
 If you would like to reach me you can do so at
 
