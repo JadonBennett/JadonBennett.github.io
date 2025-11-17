@@ -1,11 +1,12 @@
 JadonBennett.github.io
 
 ## __1. Home / Introduction__
-
+### Introduction
 Hello! My name is Jadon Bennett. I'm a Student at the University of Washington, Tacoma
 majoring in Computer Science and Systems! <br>
 <br>
-Rooted in integrity, driven by continuous growth.
+### Personal Statement
+_Rooted in integrity, driven by continuous growth._
 
 <!--
 A brief professional introduction (name, background, area of interest in CS).
