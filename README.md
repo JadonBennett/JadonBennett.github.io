@@ -13,7 +13,7 @@ A brief professional introduction (name, background, area of interest in CS).
 A clear tagline or personal statement.
 -->
 
-![Professional Headshot](/Images/Headshot.jpg)
+![Professional Headshot](/Images/Headshot.png)
 
 ## __2. About Me__
 
