@@ -3,6 +3,9 @@
 
 1. Home / Introduction
 
+Hello! My name is Jadon Bennett and I'm a Student at the University of Washington, Tacoma
+in the Conputer Science and Systems Major!
+
 A brief professional introduction (name, background, area of interest in CS).
 A clear tagline or personal statement.
 
@@ -26,9 +29,13 @@ Note: You will be updating this section every quarter, so don’t worry if you d
 
 4. Skills
 
-List relevant technical skills (e.g., Python, Java, HTML/CSS, React, SQL, etc.)
-Mention software tools or frameworks (e.g., Git, VS Code, TensorFlow).
-Add certifications, relevant coursework, or badges.
+Hard Skills: Java, C++, Assembly, Microsoft Office, Google Workspace, Github.
+
+Soft Skills: Leadership, Problem Solving, Communication, Organization, Attention to Detail.
+
+# List relevant technical skills (e.g., Python, Java, HTML/CSS, React, SQL, etc.)
+# Mention software tools or frameworks (e.g., Git, VS Code, TensorFlow).
+# Add certifications, relevant coursework, or badges.
 
 5. Experience
 
