@@ -148,7 +148,7 @@ Optionally embed it in the page.
     <td><b style="font-size:30px">Social Media</b></td>
  </tr>
  <tr>
-    <td> <img src="/Images/Gmail.png" width="14"> <a href="Mailto:JadonKBennett@gmail.com">JadonKBennett@gmail.com</a></td>
+    <td> <img src="/Images/Gmail.png" width="14"> <a href="Mailto:JadonKBennett@gmail.com">JadonKBennett@gmail.com</a> <br> </td> 
     <td> <img src="/Images/LinkedIn.png" width="14"> <a href="https://www.linkedin.com/in/jadonkbennett/">LinkedIn/JadonKBennett</a> <br>
     <img src="/Images/Github.png" width="14"> <a href="https://github.com/JadonBennett">Github/JadonBennett</a> </td>
  </tr>
@@ -156,6 +156,7 @@ Optionally embed it in the page.
 <br>
 <br>
 
+<!--
 ### Email
 You can reach me by email at
 <br>
@@ -176,6 +177,7 @@ Alternatively, if you would like to check out my socials you can do so at
 
 <img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
 <br>
+-->
 
 <!--
 Provide your professional email.
