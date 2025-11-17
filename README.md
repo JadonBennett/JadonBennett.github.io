@@ -1,5 +1,4 @@
 JadonBennett.github.io
-# Welcome to My Portfolio
 
 ## 1. Home / Introduction
 
