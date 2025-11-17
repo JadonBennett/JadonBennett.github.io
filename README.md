@@ -69,15 +69,14 @@ Optionally embed it in the page.
 
 If you would like to reach me you can do so at
 
-[JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
-
-
-
+<img src="/Images/Email.png" width="14"> [JadonKBennett@gmail.com](Mailto:JadonKBennett@gmail.com)
+<br>
+<br>
 Alternatively, if you would like to check out my socials you can do so at
 
 <img src="/Images/LinkedIn.png" width="14"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
 
-[Github/JadonBennett](https://github.com/JadonBennett)
+<img src="/Images/Github.png" width="14"> [Github/JadonBennett](https://github.com/JadonBennett)
 <!--
 Provide your professional email.
 Optionally include links to:
