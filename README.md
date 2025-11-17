@@ -75,7 +75,7 @@ If you would like to reach me you can do so at
 
 Alternatively, if you would like to check out my socials you can do so at
 
-<img src="/Images/LinkedIn.png" width="48"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
+<img src="/Images/LinkedIn.png" width="24"> [LinkedIn/JadonKBennett](https://www.linkedin.com/in/jadonkbennett/)
 
 [Github/JadonBennett](https://github.com/JadonBennett)
 <!--
