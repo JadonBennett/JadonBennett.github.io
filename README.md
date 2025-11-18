@@ -1,6 +1,6 @@
 JadonBennett.github.io
 
-![Professional Headshot](/Images/Headshot.png)
+<img src="/Images/Headshot.png" width="500">
 
 ## __1. Home / Introduction__
 ### Introduction
@@ -131,7 +131,7 @@ Include your role, responsibilities, and outcomes.
 
 ## __6. Resume__
 
-### My Resume
+### [My Resume](/Images/GeneralResumeJadon.pdf)
 ![Link to my Resume](/Images/GeneralResumeJadon.jpg)
 <br>
 <br>
