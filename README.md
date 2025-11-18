@@ -1,6 +1,7 @@
 JadonBennett.github.io
 
-<img src="/Images/Headshot.png" width="500">
+![Image of Headshot](/Images/Headshot.png)
+<!--<img src="/Images/Headshot.png" width="500">-->
 
 ## __1. Home / Introduction__
 ### Introduction
