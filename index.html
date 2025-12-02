@@ -36,26 +36,30 @@
         nav .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 0 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         nav h1 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
 
         nav ul {
             list-style: none;
             display: flex;
-            gap: 2rem;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         nav a {
             color: white;
             text-decoration: none;
             transition: opacity 0.3s;
+            font-size: 0.95rem;
         }
 
         nav a:hover {
@@ -64,34 +68,37 @@
 
         /* Hero Section */
         .hero {
-            /* Adds a dark overlay (0.6 opacity) on top of the image so text pops */
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/Tacoma.webp') no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/Tacoma.webp');
             background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: white;
-            padding: 6rem 2rem;
+            padding: 4rem 1.5rem;
             text-align: center;
         }
 
         .hero h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin-bottom: 1rem;
         }
 
         .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
             opacity: 0.9;
+            padding: 0 1rem;
         }
 
         .hero .cta-button {
             display: inline-block;
             background: white;
             color: #667eea;
-            padding: 1rem 2rem;
+            padding: 0.9rem 1.8rem;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
             transition: transform 0.3s;
+            margin-top: 1rem;
         }
 
         .hero .cta-button:hover {
@@ -99,8 +106,8 @@
         }
 
         .hero-image {
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             border: 4px solid white;
             object-fit: cover;
@@ -112,12 +119,12 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 2rem;
+            padding: 0 1.5rem;
         }
 
         /* Sections */
         section {
-            padding: 4rem 2rem;
+            padding: 3rem 1.5rem;
         }
 
         section:nth-child(even) {
@@ -125,7 +132,7 @@
         }
 
         section h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-bottom: 1rem;
             color: #2c3e50;
             text-align: center;
@@ -145,15 +152,19 @@
             max-width: 800px;
             margin: 2rem auto;
             text-align: center;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
+        }
+
+        .about-content h3 {
+            font-size: 1.3rem;
         }
 
         /* Projects Grid */
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
         }
 
         .project-card {
@@ -172,7 +183,6 @@
         .project-image {
             width: 100%;
             height: 200px;
-            /* 'contain' shows the whole image. Change to 'cover' to fill the box (may crop) */
             background-size: contain;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) no-repeat center;
             display: flex;
@@ -189,11 +199,13 @@
         .project-content h3 {
             color: #2c3e50;
             margin-bottom: 0.5rem;
+            font-size: 1.3rem;
         }
 
         .project-content p {
             color: #666;
             margin-bottom: 1rem;
+            font-size: 0.95rem;
         }
 
         .project-tags {
@@ -207,70 +219,70 @@
             background: #e9ecef;
             padding: 0.3rem 0.8rem;
             border-radius: 20px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: #495057;
         }
 
         .project-links {
             display: flex;
             gap: 1rem;
+            flex-wrap: wrap;
         }
 
         .project-links a {
             color: #667eea;
             text-decoration: none;
             font-weight: 500;
+            font-size: 0.95rem;
         }
 
         /* Skills Section */
         .skills-container {
             max-width: 900px;
-            margin: 3rem auto;
-            justify-content: center;
+            margin: 2rem auto;
         }
 
         .skill-category {
             margin-bottom: 2rem;
-            justify-content: center;
         }
 
         .skill-category h3 {
-            display: flex;
             color: #2c3e50;
             margin-bottom: 1rem;
-            font-size: 1.5rem;
-            justify-content: center;
+            font-size: 1.3rem;
+            text-align: center;
         }
 
         .skills-list {
             display: flex;
             flex-wrap: wrap;
-            gap:2rem;
+            gap: 1rem;
             justify-content: center;
         }
 
         .skill-item {
             background: white;
-            padding: 0.8rem 1.5rem;
+            padding: 0.7rem 1.3rem;
             border-radius: 30px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             font-weight: 500;
             color: #495057;
-            justify-content: center;
+            font-size: 0.9rem;
         }
 
         /* Experience Timeline */
         .timeline {
             max-width: 800px;
-            margin: 3rem auto;
+            margin: 2rem auto;
             position: relative;
+            padding-left: 0;
         }
 
         .timeline::before {
             content: '';
             position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 20px;
+            transform: none;
             width: 2px;
             height: 100%;
             background: #667eea;
@@ -278,22 +290,48 @@
 
         .timeline-item {
             background: white;
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
+            margin-left: 50px;
             position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -38px;
+            top: 20px;
+            width: 16px;
+            height: 16px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
         }
 
         .timeline-item h3 {
             color: #2c3e50;
             margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .timeline-item h4 {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 500;
         }
 
         .timeline-item .date {
             color: #667eea;
             font-weight: bold;
             margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .timeline-item p {
+            font-size: 0.95rem;
         }
 
         /* Resume Section */
@@ -305,11 +343,11 @@
 
         .resume-preview {
             width: 100%;
-            max-width: 800px;
+            max-width: 100%;
             height: auto;
             border: 1px solid #ddd;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             border-radius: 4px;
             transition: transform 0.3s;
         }
@@ -328,6 +366,7 @@
             font-weight: bold;
             transition: transform 0.3s, background 0.3s;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            font-size: 0.95rem;
         }
 
         .download-button:hover {
@@ -339,33 +378,34 @@
         /* Contact Section */
         .contact-content {
             max-width: 600px;
-            margin: 3rem auto;
+            margin: 2rem auto;
             text-align: center;
+        }
+
+        .contact-content p {
+            font-size: 1rem;
         }
 
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             margin-top: 2rem;
+            flex-wrap: wrap;
         }
 
         .social-links a {
-            width: 50px;
-            height: 50px;
-            background: #2c3e50;
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            font-size: 1.5rem;
-            transition: background 0.3s;
+            transition: transform 0.3s;
         }
 
         .social-links a:hover {
-            background: #667eea;
+            transform: scale(1.1);
+        }
+
+        .social-links img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
         }
 
         /* Footer */
@@ -373,14 +413,31 @@
             background: #2c3e50;
             color: white;
             text-align: center;
-            padding: 2rem;
+            padding: 2rem 1rem;
         }
 
-        /* Responsive */
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Responsive - Tablets */
         @media (max-width: 768px) {
+            nav .container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav h1 {
+                font-size: 1.2rem;
+            }
+
             nav ul {
                 gap: 1rem;
-                font-size: 0.9rem;
+                font-size: 0.85rem;
+            }
+
+            .hero {
+                padding: 3rem 1rem;
             }
 
             .hero h2 {
@@ -391,12 +448,165 @@
                 font-size: 1.1rem;
             }
 
+            .hero-image {
+                width: 180px;
+                height: 180px;
+            }
+
+            section {
+                padding: 2.5rem 1rem;
+            }
+
             section h2 {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+
+            .about-content {
+                font-size: 1rem;
+            }
+
+            .about-content h3 {
+                font-size: 1.2rem;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .timeline {
+                padding-left: 0;
             }
 
             .timeline::before {
-                left: 0;
+                left: 15px;
+            }
+
+            .timeline-item {
+                margin-left: 40px;
+                padding: 1.2rem;
+            }
+
+            .timeline-item::before {
+                left: -33px;
+            }
+
+            .timeline-item h3 {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Mobile Responsive - Small Phones */
+        @media (max-width: 480px) {
+            nav h1 {
+                font-size: 1.1rem;
+            }
+
+            nav ul {
+                gap: 0.8rem;
+                font-size: 0.8rem;
+            }
+
+            .hero {
+                padding: 2.5rem 0.8rem;
+            }
+
+            .hero h2 {
+                font-size: 1.6rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+                padding: 0 0.5rem;
+            }
+
+            .hero-image {
+                width: 150px;
+                height: 150px;
+            }
+
+            .hero .cta-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 2rem 0.8rem;
+            }
+
+            section h2 {
+                font-size: 1.6rem;
+            }
+
+            .about-content {
+                font-size: 0.95rem;
+                padding: 0 0.5rem;
+            }
+
+            .about-content h3 {
+                font-size: 1.1rem;
+            }
+
+            .project-content {
+                padding: 1.2rem;
+            }
+
+            .project-content h3 {
+                font-size: 1.2rem;
+            }
+
+            .skill-item {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            .skills-list {
+                gap: 0.8rem;
+            }
+
+            .timeline-item {
+                margin-left: 35px;
+                padding: 1rem;
+            }
+
+            .timeline-item::before {
+                left: -28px;
+                width: 12px;
+                height: 12px;
+            }
+
+            .social-links {
+                gap: 1rem;
+            }
+
+            .social-links img {
+                width: 45px;
+                height: 45px;
+            }
+
+            .download-button {
+                padding: 0.9rem 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Landscape Mobile Fix */
+        @media (max-height: 600px) and (orientation: landscape) {
+            .hero {
+                padding: 2rem 1rem;
+            }
+
+            .hero-image {
+                width: 120px;
+                height: 120px;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.95rem;
             }
         }
     </style>
@@ -617,9 +827,9 @@
             <p style="font-size: 1.2rem; margin-top: 2rem;"><strong>Email:</strong> JadonKBennett@gmail.com</p>
 
             <div class="social-links">
-                <a href="https://github.com/JadonBennett" target="_blank" title="GitHub"><img src="Images/Github.png" width="80" alt="Github Icon"></a>
-                <a href="https://linkedin.com/in/jadonkbennett/" target="_blank" title="LinkedIn"><img src="Images/LinkedIn.png" width="80" alt="LinkedIn Icon"></a>
-                <a href="mailto:JadonKBennett@gmail.com" title="Email"><img src="Images/Gmail.png" width="80" alt="Gmail Icon"></a>
+                <a href="https://github.com/JadonBennett" target="_blank" title="GitHub"><img src="Images/Github.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/jadonkbennett/" target="_blank" title="LinkedIn"><img src="Images/LinkedIn.png" alt="LinkedIn"></a>
+                <a href="mailto:JadonKBennett@gmail.com" title="Email"><img src="Images/Gmail.png" alt="Email"></a>
             </div>
         </div>
     </div>
