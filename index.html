@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadon Bennett | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .hero .cta-button:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 4rem 2rem;
+        }
+
+        section:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #667eea;
+            margin: 1rem auto;
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-content h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-content p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            background: #e9ecef;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #495057;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            max-width: 900px;
+            margin: 3rem auto;
+        }
+
+        .skill-category {
+            margin-bottom: 2rem;
+        }
+
+        .skill-category h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill-item {
+            background: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-weight: 500;
+            color: #495057;
+        }
+
+        /* Experience Timeline */
+        .timeline {
+            max-width: 800px;
+            margin: 3rem auto;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: #667eea;
+        }
+
+        .timeline-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-item h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item .date {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        /* Contact Section */
+        .contact-content {
+            max-width: 600px;
+            margin: 3rem auto;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #2c3e50;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #667eea;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .timeline::before {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1>Jadon Bennett</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Hi, I'm Jadon Bennett</h2>
+        <p>Computer Science Student | Problem Solver | Technology Enthusiast</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm a junior at the University of Washington, Tacoma, majoring in Computer Science and Systems. Rooted in integrity and driven by continuous growth, I'm passionate about tackling complex and interesting problems.</p>
+                <p>My interest in computers began at age 14 when I received my first laptop. Since then, I've been fascinated by technology and constantly seek opportunities to learn more. I currently work in the sound industry, where I combine technical problem-solving with hands-on experience.</p>
+                <p>When I'm not studying or working, I enjoy building interactive systems for online roleplaying games and developing character builders using modern web technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">🎲</div>
+                    <div class="project-content">
+                        <h3>Gears of Galudon Character System</h3>
+                        <p>A comprehensive character management system for a custom RPG, tracking 300+ abilities across multiple magic schools, bloodlines, and combat styles. Features automated stat calculations, skill progression, and dynamic validation across interconnected sheets.</p>
+                        <div class="project-tags">
+                            <span class="tag">Google Sheets</span>
+                            <span class="tag">Apps Script</span>
+                            <span class="tag">Complex Logic</span>
+                            <span class="tag">Data Validation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://docs.google.com/spreadsheets/d/1t8gKJre0TQaGtk4CybgrAkz8XYmWhvEMhtPNqpW3SIQ/edit?usp=sharing" target="_blank">View Demo →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Placeholder -->
+                <div class="project-card">
+                    <div class="project-image">⚛️</div>
+                    <div class="project-content">
+                        <h3>React Character Builder</h3>
+                        <p>Currently in development: A professional version of the character calculator using React and modern web technologies.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - Add your own -->
+                <div class="project-card">
+                    <div class="project-image">🏆</div>
+                    <div class="project-content">
+                        <h3>Hackathon Winner</h3>
+                        <p>First place winner in UW Tacoma Java 142 Hackathon. Led team in developing pseudocode and collaborative problem-solving.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Team Leadership</span>
+                            <span class="tag">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">Assembly</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">HTML/CSS</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">Google Workspace</div>
+                        <div class="skill-item">Microsoft Office</div>
+                        <div class="skill-item">React (Learning)</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Leadership</div>
+                        <div class="skill-item">Problem Solving</div>
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Organization</div>
+                        <div class="skill-item">Attention to Detail</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="date">Present</div>
+                    <h3>Sound Technician</h3>
+                    <h4>Events Company</h4>
+                    <p>Work with professional sound equipment and software interfaces to deliver high-quality audio experiences for events. Responsible for troubleshooting technical issues and implementing creative solutions to complex audio challenges.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="date">2024</div>
+                    <h3>Hackathon Winner - First Place</h3>
+                    <h4>UW Tacoma Java 142 Competition</h4>
+                    <p>Led team to first place victory by developing pseudocode solutions and facilitating collaborative problem-solving. Demonstrated strong leadership and communication skills under time constraints.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new opportunities, projects, or just connecting with fellow tech enthusiasts. Feel free to reach out!</p>
+                <p style="font-size: 1.2rem; margin-top: 2rem;"><strong>Email:</strong> JadonKBennett@gmail.com</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/JadonBennett" target="_blank" title="GitHub">💻</a>
+                    <a href="https://linkedin.com/in/jadonkbennett/" target="_blank" title="LinkedIn">💼</a>
+                    <a href="mailto:JadonKBennett@gmail.com" title="Email">📧</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jadon Bennett. All rights reserved.</p>
+        <p>Built with passion and dedication.</p>
+    </footer>
+</body>
+</html>
